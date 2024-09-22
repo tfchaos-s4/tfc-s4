@@ -1094,7 +1094,7 @@ force ace_winddeflection_simulationInterval = 0.05;
 force ace_winddeflection_vehicleEnabled = true;
 
 // ACE Zeus
-force ace_zeus_autoAddObjects = false;
+force ace_zeus_autoAddObjects = true;
 force ace_zeus_canCreateZeus = -1;
 force ace_zeus_radioOrdnance = false;
 force ace_zeus_remoteWind = false;
