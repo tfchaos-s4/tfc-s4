@@ -1,0 +1,10 @@
+version=54;
+name="Tight Green H-Barrier Double Sided CheckP";
+author="Silentwisher.YT";
+category="EdSubcat_GO_Military";
+requiredAddons[]=
+{
+	"A3_Structures_F_Exp_Military_Fortifications",
+	"A3_Props_F_Enoch_Military_Equipment",
+	"A3_Structures_F_Walls"
+};

@@ -1,0 +1,132 @@
+version=54;
+center[]={7615.9819,5,4127.9653};
+class items
+{
+	items=8;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-4.144043,3.4869003,-13.946777};
+			angles[]={-0,3.1415927,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=354;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={4.3808594,3.4869003,-13.916504};
+			angles[]={-0,3.1415927,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=356;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={13.899902,3.4869003,-4.2905273};
+			angles[]={-0,1.5707964,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=357;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={14.029297,3.4869003,4.4213867};
+			angles[]={-0,1.5707964,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=359;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={4.3417969,3.4869003,14.008301};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=360;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-4.425293,3.4869003,13.87207};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=361;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-14.071289,3.4869003,4.0336914};
+			angles[]={-0,4.712389,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=363;
+		type="Land_A_Castle_Wall1_20";
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-14.012695,3.4869003,-4.1801758};
+			angles[]={-0,4.712389,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=364;
+		type="Land_A_Castle_Wall1_20";
+	};
+};

@@ -1,0 +1,8 @@
+version=54;
+name="Castle Cube x2";
+author="Silentwisher.YT";
+category="EdSubcat_GO_Civilian";
+requiredAddons[]=
+{
+	"CUP_CAStructures_Castle"
+};
