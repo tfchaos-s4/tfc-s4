@@ -409,11 +409,11 @@ force force ace_nametags_showVehicleCrewInfo = true;
 force force ace_nametags_tagSize = 2;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0;
+force force ace_nightvision_aimDownSightsBlur = 0.3;
 force force ace_nightvision_disableNVGsWithSights = false;
 force force ace_nightvision_effectScaling = 0.8;
-force force ace_nightvision_fogScaling = 0.341484;
-force force ace_nightvision_noiseScaling = 0.0832175;
+force force ace_nightvision_fogScaling = 0.3;
+force force ace_nightvision_noiseScaling = 0.1;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
