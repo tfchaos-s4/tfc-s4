@@ -1,0 +1,24 @@
+**login**
+ssh ubuntu@147.135.36.95
+TFCMAINT
+
+**restart ded 1**
+cd /home/ubuntu/armaserver/servers/main \
+sudo docker compose down
+sudo docker compose up -d \
+sudo docker logs armaserver-main -f
+
+
+**restart dedi2 2**
+cd armaserver/servers/ops \
+sudo docker compose down \
+sudo docker compose up -d
+sudo docker logs armaserver-ops -f
+
+**Restart dedi lib**
+cd armaserver/servers/lib \
+sudo docker compose down \
+sudo docker compose up -d
+sudo docker logs armaserver-lib -f
+
+
