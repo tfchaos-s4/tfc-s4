@@ -173,10 +173,11 @@ force acex_headless_transferLoadout = 0;
 
 // ACE Hearing
 force ace_hearing_autoAddEarplugsToUnits = 1;
-ace_hearing_disableEarRinging = false;
+ace_hearing_disableEarRinging = true;
 force ace_hearing_earplugsVolume = 0.3;
-force ace_hearing_enableCombatDeafness = true;
+force force ace_hearing_enableCombatDeafness = true;
 force ace_hearing_enabledForZeusUnits = true;
+force ace_hearing_explosionDeafnessCoefficient = 1;
 force ace_hearing_unconsciousnessVolume = 0.4;
 
 // ACE Interaction
@@ -1111,22 +1112,22 @@ force ace_zeus_zeusBird = false;
 
 // ACRE2
 force force acre_sys_core_automaticAntennaDirection = false;
-force force acre_sys_core_defaultRadioVolume = 0.8;
+acre_sys_core_defaultRadioVolume = 0.8;
 force force acre_sys_core_fullDuplex = false;
-force force acre_sys_core_godVolume = 1;
+acre_sys_core_godVolume = 1;
 force force acre_sys_core_ignoreAntennaDirection = false;
 force force acre_sys_core_interference = true;
-force force acre_sys_core_postmixGlobalVolume = 1;
-force force acre_sys_core_premixGlobalVolume = 1;
+acre_sys_core_postmixGlobalVolume = 1;
+acre_sys_core_premixGlobalVolume = 1;
 force force acre_sys_core_revealToAI = 1;
-force force acre_sys_core_spectatorVolume = 1;
+acre_sys_core_spectatorVolume = 1;
 force force acre_sys_core_terrainLoss = 1;
 force force acre_sys_core_ts3ChannelName = "";
 force force acre_sys_core_ts3ChannelPassword = "";
 force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_core_unmuteClients = true;
 force force acre_sys_radio_defaultRadio = "ACRE_PRC152";
-force force acre_sys_signal_signalModel = 1;
+force force acre_sys_signal_signalModel = 0;
 
 // ACRE2 Gestures
 force force acre_sys_gestures_enabled = true;
@@ -1420,6 +1421,44 @@ vxf_interaction_updateEvery = 5;
 vxf_uh60_interaction_autoclose_actionmenu = false;
 vxf_uh60_interaction_pointing = true;
 
+// Hide Among The Grass
+force force hatg_setting_building = true;
+force force hatg_setting_complex_detection = true;
+force force hatg_setting_cooldown = 30;
+force hatg_setting_debug = false;
+force hatg_setting_debug_conditions = false;
+force hatg_setting_debug_detection = false;
+force hatg_setting_debug_surface = false;
+force hatg_setting_distance_close = 30;
+force force hatg_setting_distance_close_multiplier = 2;
+force force hatg_setting_distance_height = 2;
+force hatg_setting_distance_reset = 15;
+force hatg_setting_distance_shots = 4;
+force force hatg_setting_enable_crouch = true;
+force hatg_setting_movement_crouch = 5;
+force hatg_setting_mp_ai = false;
+force force hatg_setting_reveal_nearby = false;
+force hatg_setting_simple = false;
+force force hatg_setting_surfaces = true;
+
+// Hide Among The Grass -  Equipment
+force hatg_setting_equipment_ghillie_blacklist = "[]";
+force hatg_setting_equipment_ghillie_whitelist = "[""U_I_FullGhillie_ard"",""U_O_FullGhillie_ard"",""U_B_FullGhillie_ard"",""U_I_FullGhillie_lsh"",""U_O_FullGhillie_lsh"",""U_B_FullGhillie_lsh"",""U_I_FullGhillie_sard"",""U_O_FullGhillie_sard"",""U_B_FullGhillie_sard"",""U_I_GhillieSuit"",""U_O_GhillieSuit"",""U_B_GhillieSuit"",""U_O_T_FullGhillie_tna_F"",""U_B_T_FullGhillie_tna_F"",""U_O_T_Sniper_F"",""U_B_T_Sniper_F"",""CUP_U_B_CZ_WDL_Ghillie"",""CUP_U_O_RUS_Ghillie"",""CUP_U_B_BAF_DDPM_GHILLIE"",""CUP_U_B_BAF_DPM_GHILLIE"",""CUP_U_B_BAF_MTP_GHILLIE"",""CUP_U_B_CZ_DST_Ghillie"",""CUP_U_O_TK_Ghillie_Top"",""CUP_U_I_Ghillie_Top"",""U_SSU_Stealth_Uniform_Ghillie_HexcamBrown"",""U_SSU_Stealth_Uniform_Ghillie_HexcamGreen"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Alpine"",""U_SSU_Stealth_Uniform_Ghillie_AOR1"",""U_SSU_Stealth_Uniform_Ghillie_AOR2"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Black"",""U_SSU_Stealth_Uniform_Ghillie_Black"",""U_SSU_Stealth_Uniform_Ghillie_M81"",""U_SSU_Stealth_Uniform_Ghillie_MCAM"",""U_SSU_Stealth_Uniform_Ghillie_OCP"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Tropic"",""U_SSU_Stealth_Uniform_Ghillie_MCAM_Woodland""]";
+force hatg_setting_equipment_suppressor_blacklist = "[""ACE_muzzle_mzls_B"",""ACE_muzzle_mzls_L"",""ACE_muzzle_mzls_H"",""ACE_muzzle_mzls_93mmg"",""ACE_muzzle_mzls_338"",""ACE_muzzle_mzls_smg_01"",""ACE_muzzle_mzls_smg_02"",""muzzle_antenna_01_f"",""muzzle_antenna_02_f"",""muzzle_antenna_03_f"",""CUP_muzzle_mfsup_Flashhider_545x39_Black"",""CUP_muzzle_mfsup_Flashhider_545x39_OD"",""CUP_muzzle_mfsup_Flashhider_545x39_Tan"",""CUP_muzzle_mfsup_Flashhider_556x45_Black"",""CUP_muzzle_mfsup_Flashhider_556x45_OD"",""CUP_muzzle_mfsup_Flashhider_556x45_Tan"",""CUP_muzzle_mfsup_SCAR_L"",""CUP_muzzle_mfsup_SCAR_H"",""CUP_muzzle_mfsup_Flashhider_762x39_Black"",""CUP_muzzle_mfsup_Flashhider_762x39_OD"",""CUP_muzzle_mfsup_Flashhider_762x39_Tan"",""CUP_muzzle_mfsup_Flashhider_762x51_Black"",""CUP_muzzle_mfsup_Flashhider_762x51_OD"",""CUP_muzzle_mfsup_Flashhider_762x51_Tan"",""CUP_muzzle_mfsup_CSA"",""CUP_muzzle_mfsup_CSA_desert"",""CUP_muzzle_mfsup_CSA_woodland"",""CUP_muzzle_mfsup_flashhider_Sa58"",""CUP_muzzle_mfsup_Zendl"",""CUP_muzzle_mfsup_Zendl_desert"",""CUP_muzzle_mfsup_Zendl_woodland"",""CUP_acc_bfa"",""CUP_acc_sffh"",""CUP_muzzle_mfsup_Flashhider_PK_Black"",""CUP_muzzle_mfsup_Flashhider_PK_OD"",""CUP_muzzle_mfsup_Flashhider_PK_Tan"",""rhs_acc_ak5"",""rhs_acc_dtk"",""rhs_acc_dtk1983"",""rhs_acc_dtk1"",""rhs_acc_dtk2"",""rhs_acc_dtk3"",""rhs_acc_pgs64"",""rhs_acc_pgs64_74u"",""rhs_acc_pgs64_74un"",""rhs_acc_uuk"",""rhs_acc_dtk1l"",""rhs_acc_dtkakm"",""rhs_acc_dtkrpk"",""rhsusf_acc_ARDEC_M240"",""rhsgref_acc_falMuzzle_l1a1"",""rhsusf_acc_SF3P556"",""rhsusf_acc_SFMB556"",""rhsgref_acc_zendl"",""rhsusf_acc_m14_flashsuppresor"",""rhsusf_acc_m24_muzzlehider_black"",""rhsusf_acc_m24_muzzlehider_d"",""rhsusf_acc_m24_muzzlehider_wd"",""hlc_muzzle_Miter18T"",""hlc_muzzle_snds_ROTEX3P"",""hlc_muzzle_Gunfighter_comp"",""hlc_muzzle_Brevis"",""hlc_muzzle_MAG58_Brake"",""hlc_muzzle_17SBrake"",""hlc_muzzle_OEMDevice"",""hlc_muzzle_KX3_comp"",""hlc_muzzle_FSC30"",""hlc_muzzle_Cherrybomb"",""hlc_muzzle_SF3P_762R"",""hlc_muzzle_A1_FlashHider"",""hlc_muzzle_XM177E1_Moderator"",""hlc_muzzle_XM177E2_Moderator"",""hlc_muzzle_E1_FlashHider"",""hlc_muzzle_OEMDevice_556"",""hlc_muzzle_snds_ArsenalComp"",""hlc_muzzle_SF3P_762""]";
+force hatg_setting_equipment_suppressor_integral = "[""srifle_DMR_02_F"",""srifle_DMR_02_camo_F"",""srifle_DMR_02_sniper_F"",""srifle_DMR_04_F"",""srifle_DMR_04_Tan_F"",""CUP_arifle_AS_VAL"",""CUP_arifle_AS_VAL_flash"",""CUP_arifle_AS_VAL_VFG"",""CUP_arifle_AS_VAL_top_rail"",""CUP_arifle_AS_VAL_flash_top"",""CUP_arifle_AS_VAL_VFG_top_rail"",""CUP_srifle_VSSVintorez"",""CUP_srifle_VSSVintorez_flash"",""CUP_srifle_VSSVintorez_VFG"",""CUP_srifle_VSSVintorez_top_rail"",""CUP_srifle_VSSVintorez_flash_top"",""CUP_srifle_VSSVintorez_VFG_top_rail"",""CUP_smg_MP5SD6"",""CUP_arifle_OTS14_GROZA_762_Grip"",""CUP_arifle_OTS14_GROZA_Grip"",""rhs_weap_asval"",""rhs_weap_asval_grip"",""rhs_weap_asval_grip_npz"",""rhs_weap_asval_npz"",""rhs_weap_vss"",""rhs_weap_vss_grip"",""rhs_weap_vss_grip_npz"",""rhs_weap_vss_npz"",""rhs_weap_m3a1_specops"",""hlc_rifle_honeybase"",""hlc_rifle_awcovert_BL"",""hlc_rifle_awcovert_FDE"",""hlc_rifle_awcovert"",""hlc_smg_mp5sd5"",""hlc_smg_mp5sd6""]";
+force hatg_setting_equipment_suppressor_whitelist = "[]";
+
+// Hide Among The Grass -  UI
+hatg_setting_ui = false;
+hatg_setting_ui_colour_hidden = [0,1,0,1];
+hatg_setting_ui_colour_revealed = [1,0,0,1];
+hatg_setting_ui_fade = 0;
+hatg_setting_ui_font = "PuristaBold";
+hatg_setting_ui_textsize = 2;
+hatg_setting_ui_use_image = false;
+hatg_setting_ui_x = 0;
+hatg_setting_ui_y = 0;
+
 // Illuminate The Night
 gjb_itn_setting_cantingMods = "gjb_itn_cantMode";
 gjb_itn_setting_debug = false;
@@ -1488,6 +1527,7 @@ force force kat_breathing_medLvl_PocketBVM = 1;
 force force kat_breathing_medLvl_Pulseoximeter = 1;
 force force kat_breathing_mildValue = 75;
 force force kat_breathing_NasalCannula_time = 3;
+force kat_breathing_paco2Active = false;
 force force kat_breathing_PneumothoraxAlwaysVisible = false;
 force force kat_breathing_PneumothoraxArrest = true;
 force force kat_breathing_pneumothoraxChance = 5;
@@ -1758,7 +1798,8 @@ force force kat_surgery_ultrasoundLocation = 3;
 force force kat_surgery_ultrasoundTime = 8;
 
 // KAT - ADV Medical: Vitals
-force force kat_vitals_simpleMedical = false;
+force kat_vitals_enableFluidShift = true;
+force kat_vitals_enableSimpleMedical = false;
 
 // KAT - ADV Medical: Watch
 force force kat_watch_altitudeUnit = 0;
@@ -1892,9 +1933,9 @@ tsp_cba_animate_tactical = true;
 tsp_cba_animate_tap = true;
 force force tsp_cba_animate_throw = false;
 force force tsp_cba_animate_walk = true;
-force force tsp_cba_animate_walk_default = 1.6;
-force force tsp_cba_animate_walk_lower = 1.3;
-force force tsp_cba_animate_walk_max = 1.8;
+force force tsp_cba_animate_walk_default = 1.4025;
+force force tsp_cba_animate_walk_lower = 2;
+force force tsp_cba_animate_walk_max = 2;
 tsp_cba_animate_watch = true;
 tsp_cba_animate_Zozo = true;
 
@@ -2098,11 +2139,11 @@ force VS_StaticEquipped = true;
 // Zeus Enhanced
 force zen_area_markers_editableMarkers = 0;
 zen_building_markers_enabled = true;
-zen_camera_adaptiveSpeed = false;
-zen_camera_defaultSpeedCoef = 0.75;
+zen_camera_adaptiveSpeed = true;
+zen_camera_defaultSpeedCoef = 1;
 zen_camera_fastSpeedCoef = 1;
 zen_camera_followTerrain = true;
-force zen_common_ascensionMessages = false;
+force zen_common_ascensionMessages = true;
 force zen_common_autoAddObjects = true;
 force zen_common_cameraBird = false;
 zen_common_darkMode = true;
@@ -2405,6 +2446,7 @@ zen_faction_filter_2_UK3CB_TKP_I = true;
 zen_faction_filter_2_UK3CB_UN_I = true;
 zen_faction_filter_3_CIV_F = true;
 zen_faction_filter_3_CIV_IDAP_F = true;
+zen_faction_filter_3_EdCat_jbad_vehicles = true;
 zen_faction_filter_3_EdCat_Things = true;
 zen_faction_filter_3_IND_L_F = true;
 zen_faction_filter_3_plpCat_BeachObjects = true;
