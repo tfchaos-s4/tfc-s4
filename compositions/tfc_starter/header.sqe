@@ -1,0 +1,24 @@
+version=54;
+name="tfc_starter";
+author="manohart";
+category="STY_SubCat_Equipment";
+requiredAddons[]=
+{
+	"rhsusf_c_troops",
+	"A3_Weapons_F",
+	"ace_chemlights",
+	"ace_flashlights",
+	"ace_maptools",
+	"A3_Characters_F",
+	"acre_api",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Ui_F",
+	"Desert",
+	"A3_Props_F_Enoch_Military_Equipment",
+	"A3_Structures_F_EPB_Civ_Camping",
+	"ace_interaction",
+	"ace_cargo",
+	"ace_dragging",
+	"A3_Structures_F_Civ_Camping",
+	"plp_containers"
+};
