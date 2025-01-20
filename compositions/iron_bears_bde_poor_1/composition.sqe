@@ -1,0 +1,2968 @@
+version=54;
+center[]={5269.0093,5,1819.9785};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=13;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.109375,0.0014390945,0.12341309};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class handgun
+						{
+							name="rhs_weap_6p53";
+							class primaryMuzzleMag
+							{
+								name="rhs_18rnd_9x21mm_7N28";
+								ammoLeft=18;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_18rnd_9x21mm_7N28";
+									count=4;
+									ammoLeft=18;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="ACRE_BF888S";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Radio_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="UK3CB_LSM_B_H_BoonieHat_BLK";
+					};
+				};
+				id=1;
+				type="O_officer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.029999999;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.31;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.16;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male03PER";
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.1;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.02;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.029999999;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.059999999;
+							};
+						};
+					};
+					nAttributes=10;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.1083984,0.0014390945,-0.084472656};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Radio_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="ACRE_BF888S";
+									count=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						goggles="G_Bandanna_oli";
+						headgear="H_Cap_oli";
+					};
+				};
+				id=2;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Walker211";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1.04;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male03PER";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=11;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.2294922,0.0014390945,-0.029541016};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="B_FieldPack_green_F";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_mag_f1";
+									count=2;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="H_Cap_oli";
+					};
+				};
+				id=3;
+				type="O_Soldier_TL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Chuck Killjoy";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="asczHead_plumber_A3";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.98000002;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male02PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.1113281,0.0014390945,0.044433594};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class secondaryWeapon
+						{
+							name="rhs_weap_rpg18";
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+					};
+				};
+				id=4;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="asczHead_foley_A3";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1.03;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=11;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.1616211,0.0014390945,0.071411133};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class secondaryWeapon
+						{
+							name="rhs_weap_rpg7";
+							class primaryMuzzleMag
+							{
+								name="rhs_rpg7_PG7VL_mag";
+								ammoLeft=1;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="rhs_rpg_6b2";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_rpg7_PG7VL_mag";
+									count=3;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="H_Cap_oli";
+					};
+				};
+				id=5;
+				type="O_Soldier_LAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="TanoanHead_A3_06";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male02PER";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=11;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-4.8364258,0.0014390945,0.091430664};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class secondaryWeapon
+						{
+							name="launch_NLAW_F";
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="H_Cap_oli";
+					};
+				};
+				id=6;
+				type="O_Soldier_AT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Latif Zahorskii";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Walker107";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male02PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.8544922,0.0014390945,0.02746582};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class secondaryWeapon
+						{
+							name="rhs_weap_igla";
+							class primaryMuzzleMag
+							{
+								name="rhs_mag_9k38_rocket";
+								ammoLeft=1;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="rhs_rpg_empty";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_mag_9k38_rocket";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+					};
+				};
+				id=7;
+				type="O_Soldier_AA_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Barklem";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.99000001;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male03PER";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=11;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.86767578,0.0014390945,0.032470703};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="UK3CB_AR10_Porto_Sup";
+							optics="uk3cb_optic_ar_delft3x25";
+							muzzle="uk3cb_muzzle_snds_M14";
+							firemode="UK3CB_AR10_Porto_Sup:Single";
+							class primaryMuzzleMag
+							{
+								name="UK3CB_AR10_20rnd_762x51";
+								ammoLeft=20;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="UK3CB_AR10_20rnd_762x51";
+									count=6;
+									ammoLeft=20;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="rhs_fieldcap_m88_ttsko_alt_back";
+					};
+				};
+				id=8;
+				type="O_soldier_M_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Walker46";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1.01;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male03PER";
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=11;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.140625,0.0014390945,0.069458008};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="rhs_weap_pkm";
+							firemode="rhs_weap_pkm:manual";
+							class primaryMuzzleMag
+							{
+								name="rhs_100Rnd_762x54mmR";
+								ammoLeft=100;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class backpack
+						{
+							typeName="UK3CB_CSAT_O_B_TACPACK_BLK";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_100Rnd_762x54mmR";
+									count=4;
+									ammoLeft=100;
+								};
+								class Item1
+								{
+									name="150Rnd_762x54_Box";
+									count=1;
+									ammoLeft=150;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="UK3CB_H_M1_Helmet_Covered_OLI";
+					};
+				};
+				id=9;
+				type="O_HeavyGunner_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Chin Dam";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="AsianHead_A3_03";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1.03;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.925293,0.0014390945,0.11743164};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="UK3CB_M16A2_UGL";
+							firemode="UK3CB_M16A2_UGL:Single";
+							class primaryMuzzleMag
+							{
+								name="UK3CB_M16_30rnd_556x45";
+								ammoLeft=30;
+							};
+							class secondaryMuzzleMag
+							{
+								name="rhs_mag_M441_HE";
+								ammoLeft=1;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=6;
+								class Item0
+								{
+									name="rhs_mag_M441_HE";
+									count=9;
+									ammoLeft=1;
+								};
+								class Item1
+								{
+									name="rhs_mag_M583A1_white";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item2
+								{
+									name="rhs_mag_M585_white_cluster";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item3
+								{
+									name="rhs_mag_m661_green";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item4
+								{
+									name="ACE_40mm_Flare_green";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item5
+								{
+									name="UK3CB_M16_30rnd_556x45";
+									count=3;
+									ammoLeft=30;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="UK3CB_CSAT_G_O_B_ENG_GRN";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=3;
+								class Item0
+								{
+									name="UK3CB_M16_30rnd_556x45";
+									count=10;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="1Rnd_HE_Grenade_shell";
+									count=5;
+									ammoLeft=1;
+								};
+								class Item2
+								{
+									name="rhs_mag_f1";
+									count=5;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="UK3CB_H_Woolhat_BLK";
+					};
+				};
+				id=10;
+				type="O_Soldier_GL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Maxim Fedor";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Ioannou";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.95999998;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.8276367,0.0014390945,0.052490234};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="uk3cb_ak47";
+							firemode="uk3cb_ak47:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="30Rnd_762x39_Mag_F";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKA_I_V_6Sh92_Khk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="rhs_30Rnd_762x39mm_polymer";
+									count=8;
+									ammoLeft=30;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="UK3CB_CSAT_M_O_B_TACPACK";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=4;
+								class Item0
+								{
+									name="DemoCharge_Remote_Mag";
+									count=3;
+									ammoLeft=1;
+								};
+								class Item1
+								{
+									name="rhs_mine_tm62m_mag";
+									count=2;
+									ammoLeft=1;
+								};
+								class Item2
+								{
+									name="rhs_mag_mine_pfm1";
+									count=10;
+									ammoLeft=1;
+								};
+								class Item3
+								{
+									name="rhs_mag_rgd5";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="UK3CB_H_Cap_RHB";
+					};
+				};
+				id=11;
+				type="O_engineer_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Damian Fulton";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="asczHead_austin_A3";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=1.05;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-10.842285,0.0014390945,0.011474609};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="UK3CB_FAMAS_F1";
+							firemode="UK3CB_FAMAS_F1:Single";
+							class primaryMuzzleMag
+							{
+								name="UK3CB_FAMAS_25rnd_556x45";
+								ammoLeft=25;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="UK3CB_FAMAS_25rnd_556x45";
+									count=10;
+									ammoLeft=25;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="rhs_medic_bag";
+							isBackpack=1;
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="ACE_fieldDressing";
+									count=30;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="rhs_Booniehat_digi";
+					};
+				};
+				id=14;
+				type="O_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Zack Opperson";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Walker33";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.97000003;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+			class Item12
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.8164063,0.0014390945,0.047485352};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					skill=0.29840738;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="UK3CB_M60";
+							firemode="UK3CB_M60:FullAuto";
+							class primaryMuzzleMag
+							{
+								name="UK3CB_M60_100rnd_762x51";
+								ammoLeft=100;
+							};
+						};
+						class uniform
+						{
+							typeName="rhsgref_uniform_olive";
+							isBackpack=0;
+						};
+						class vest
+						{
+							typeName="UK3CB_TKP_I_V_6Sh92_Blk";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="UK3CB_MG3_250rnd_762x51";
+									count=1;
+									ammoLeft=250;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="rhsgref_ttsko_alicepack";
+							isBackpack=1;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="UK3CB_MG3_250rnd_762x51";
+									count=3;
+									ammoLeft=250;
+								};
+								class Item1
+								{
+									name="rhsusf_100Rnd_762x51_m61_ap";
+									count=2;
+									ammoLeft=100;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						gps="ItemGPS";
+						headgear="rhs_6m2";
+					};
+				};
+				id=15;
+				type="O_Soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ENH_aimingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.03405622;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="ENH_spotTime";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['spotTime', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.30938664;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="unitName";
+						expression="_this setname _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Chang Wing Nung";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="face";
+						expression="_this setface _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="AsianHead_A3_07";
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.99000001;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="ENH_reloadingSpeed";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['reloadSpeed', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.156896;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								singleType="STRING";
+								value="Male01PER";
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="enh_general";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['general', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.10182983;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="ENH_commanding";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['commanding', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.0044052489;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="ENH_aimingShake";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingShake', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.021348676;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="ENH_aimingAccuracy";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['aimingAccuracy', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.063707292;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="ENH_courage";
+						expression="if (_value == 0.5) exitWith {}; [_this, ['courage', _value]] remoteExec ['setSkill', _this]";
+						class Value
+						{
+							class data
+							{
+								singleType="SCALAR";
+								value=0.025584657;
+							};
+						};
+					};
+					nAttributes=12;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=0;
+	};
+};
