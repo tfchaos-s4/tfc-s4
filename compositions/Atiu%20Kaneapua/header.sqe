@@ -1,0 +1,14 @@
+version=54;
+name="Atiu Kaneapua";
+author="Lohi";
+category="EdSubcat_Personnel";
+requiredAddons[]=
+{
+	"rhs_c_troops",
+	"rhsgref_c_weapons",
+	"RHSGREF_weapon_sounds",
+	"squad_sound_TT33",
+	"A3_Weapons_F",
+	"A3_Characters_F",
+	"ace_goggles"
+};

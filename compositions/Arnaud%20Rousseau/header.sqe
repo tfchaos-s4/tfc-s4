@@ -1,0 +1,19 @@
+version=54;
+name="Arnaud Rousseau";
+author="Lohi";
+category="EdSubcat_Personnel";
+requiredAddons[]=
+{
+	"rhs_c_troops",
+	"A3_Weapons_F_Kart_Pistols_Pistol_Signal_F",
+	"ace_overheating",
+	"ace_realisticnames",
+	"A3_Weapons_F_Kart",
+	"ace_grenades",
+	"A3_Weapons_F",
+	"kat_watch",
+	"A3_Characters_F_Decade_Facewear",
+	"UK3CB_Factions_Facegear",
+	"UK3CB_Factions_Headgear",
+	"UK3CB_Factions_LNM_B"
+};

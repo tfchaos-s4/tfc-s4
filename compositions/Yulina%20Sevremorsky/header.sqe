@@ -1,0 +1,10 @@
+version=54;
+name="Yulina Sevremorsky";
+author="Lohi";
+category="EdSubcat_Personnel";
+requiredAddons[]=
+{
+	"rhs_c_troops",
+	"A3_Weapons_F",
+	"women"
+};

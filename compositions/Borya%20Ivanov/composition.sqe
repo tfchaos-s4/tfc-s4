@@ -1,0 +1,228 @@
+version=54;
+center[]={8778.6914,9.2399998,4664.7319};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Petro Skriabinsha";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Group";
+				side="East";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={0,0.0014390945,0.049804688};
+							angles[]={0,5.5632892,0};
+						};
+						side="East";
+						flags=7;
+						class Attributes
+						{
+							receiveRemoteTargets=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_OrestesBody";
+									isBackpack=0;
+								};
+								map="ItemMap";
+								compass="ItemCompass";
+								watch="ItemWatch";
+							};
+						};
+						id=222;
+						type="rhs_msv_officer";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="ENH_AmbientAnimations";
+								expression="      if !(_value # 0 isEqualTo '') then      {        _value params ['_animSet', '_anims', '_canExit', '_attach'];                _this setVariable ['ENH_ambientAnimations_anims', _anims];        _this disableAI 'ANIM';        if (_attach && !is3DEN) then        {          private _logic = group _this createUnit ['Logic', getPosATL _this, [], 0, 'NONE'];          _this setVariable ['ENH_ambientAnimations_logic', _logic];          [_this, _logic] call BIS_fnc_attachToRelative;        };                ENH_fnc_ambientAnimations_play =        {          params ['_unit'];          private _anim = selectRandom (_unit getVariable ['ENH_ambientAnimations_anims', []]);          [_unit, _anim] remoteExec ['switchMove', 0];        };                ENH_fnc_ambientAnimations_exit =        {          params ['_unit'];          if !(_unit getVariable ['ENH_ambientAnimations_exit', true]) exitWith {false};          _unit setVariable ['ENH_ambientAnimations_exit', true];          detach _unit;          deleteVehicle (_unit getVariable ['ENH_ambientAnimations_logic', objNull]);          if (alive _unit) then          {            [_unit, ''] remoteExec ['switchMove', 0];            _unit enableAI 'ANIM';          };          _unit removeEventHandler ['Killed', _unit getVariable ['ENH_EHKilled',-1]];          _unit removeEventHandler ['Dammaged', _unit getVariable ['ENH_EHDammaged',-1]];          _unit removeEventHandler ['AnimDone', _unit getVariable ['ENH_EHAnimDone',-1]];        };                private _EHAnimDone = _this addEventHandler ['AnimDone',          {            params ['_unit'];            if (alive _unit) then            {              _unit call ENH_fnc_ambientAnimations_play;            }            else            {              _unit call ENH_fnc_ambientAnimations_exit;            };          }        ];        _this setVariable ['ENH_EHAnimDone', _EHAnimDone];                if (_canExit && !is3DEN) then        {          private _EHKilled = _this addEventHandler ['Killed',          {            (_this select 0) call ENH_fnc_ambientAnimations_exit;          }];          _this setVariable ['ENH_EHKilled', _EHKilled];          private _EHDammaged = _this addEventHandler ['Dammaged',          {            (_this select 0) call ENH_fnc_ambientAnimations_exit;          }];          _this setVariable ['ENH_EHDammaged', _EHDammaged];          _this spawn          {            scriptName 'ENH_Attribute_AmbientAnimations';            params ['_unit'];            waitUntil            {              sleep 1; (_unit getVariable ['ENH_ambientAnimations_exit', false]) || {behaviour _unit == 'COMBAT'}            };            _unit call ENH_fnc_ambientAnimations_exit;          };        };        _this call ENH_fnc_ambientAnimations_play;      };";
+								class Value
+								{
+									class data
+									{
+										singleType="ARRAY";
+										class value
+										{
+											items=4;
+											class Item0
+											{
+												class data
+												{
+													singleType="STRING";
+													value="BRIEFING";
+												};
+											};
+											class Item1
+											{
+												class data
+												{
+													singleType="ARRAY";
+													class value
+													{
+														items=8;
+														class Item0
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_loop";
+															};
+														};
+														class Item1
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_loop";
+															};
+														};
+														class Item2
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_loop";
+															};
+														};
+														class Item3
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_lookaround1";
+															};
+														};
+														class Item4
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_lookaround2";
+															};
+														};
+														class Item5
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_scratch";
+															};
+														};
+														class Item6
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_stretch";
+															};
+														};
+														class Item7
+														{
+															class data
+															{
+																singleType="STRING";
+																value="hubbriefing_talkaround";
+															};
+														};
+													};
+												};
+											};
+											class Item2
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+											class Item3
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="STRING";
+										value="RHS_Male01RUS";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0.94;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="unitName";
+								expression="_this setname _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="STRING";
+										value="Borya Ivanov";
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="face";
+								expression="_this setface _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="STRING";
+										value="WhiteHead_04";
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=221;
+			};
+		};
+		id=208;
+	};
+};
