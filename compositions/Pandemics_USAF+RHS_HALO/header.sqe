@@ -1,0 +1,10 @@
+version=54;
+name="Pandemics_USAF+RHS_HALO";
+author="Pandemic";
+category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Props_F_Enoch_Military_Equipment",
+	"A3_Structures_F_EPB_Civ_Camping",
+	"A3_Structures_F_Civ_Camping"
+};
